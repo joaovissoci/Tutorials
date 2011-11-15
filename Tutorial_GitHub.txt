@@ -1,0 +1,41 @@
+Steps on GitHub:
+
+How to attach documents do GitHub
+Define what is a branch
+Define what is a remote
+
+
+
+
+- Create Repo's
+- Load files inside de Repo's
+- Fork other repo's
+- Pull upstream changes from the original Fork
+- Work with branches of a file without harming the original one
+- Pull Request - To offer a controbution to the original Fork
+- Delete a Repo
+
+ls #Show the files inside the branch (and directory)
+git init #make an existing directory of content into a new Git repository
+git clone [url] # To get a copy of one's project
+git add # tracks new files and stage changes in already tracked files
+git status # Shows the status of the file in the working directory and staging area
+git diff # shows diff of what is staged and what is modified but unstaged
+git commit # records a snapshot of the staging area
+git reset HEAD # Resets the files in unstage changes
+git rm # remove files from the staging area
+git branch (branchname) #list, create and manage working branches
+git checkout # Swhitch to a new branch context
+git branch -d (branchname) # Delete a branch
+git merge # merge a branch context into your current one
+git log # Show commit history of a branch
+git tag # tag a point in history as important
+git remote # list, add and delete remote repository aliases
+git remote add (name of the remote) (url) # create a remote repository
+git remote -v # shows the entire URL of a remote repository
+git remote rm # Remove existing repository
+git fetch # download new branches and data from a remote repository
+	- git fetch (name of the remote/branch)
+git pull # fetch a remote repo and try to merge into the current branch
+git push # push your new branches and data to a remote repository
+	- git push (alis) (branch)
