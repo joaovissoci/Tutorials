@@ -1,11 +1,5 @@
 Steps on GitHub:
 
-How to attach documents do GitHub
-Define what is a branch
-Define what is a remote
-
-
-
 
 - Create Repo's
 - Load files inside de Repo's
